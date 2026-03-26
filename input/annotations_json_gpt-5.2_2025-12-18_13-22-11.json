@@ -1,0 +1,2311 @@
+{
+  "name": "Annotations",
+  "desc": "Annotate according to guidelines",
+  "labelset": {
+    "name": "All Attributes (Amm)",
+    "desc": "MaRBLe Annotations",
+    "labels": [
+      {
+        "name": "Postcondition",
+        "color": "#9fd1be"
+      },
+      {
+        "name": "Precondition",
+        "color": "#493b69"
+      },
+      {
+        "name": "Actors",
+        "color": "#71c345"
+      },
+      {
+        "name": "Acts",
+        "color": "#4435ba"
+      },
+      {
+        "name": "Legal Relations",
+        "color": "#9d68e2"
+      },
+      {
+        "name": "Geographical - Physical Domains",
+        "color": "#4d865d"
+      },
+      {
+        "name": "Temporal",
+        "color": "#434f65"
+      },
+      {
+        "name": "Explicit References",
+        "color": "#48dc7a"
+      },
+      {
+        "name": "Hierarchies",
+        "color": "#69a0b0"
+      },
+      {
+        "name": "Residual",
+        "color": "#b7bb37"
+      }
+    ]
+  },
+  "ann_guidelines": "",
+  "annotation_level": "symbol",
+  "documents": [
+    {
+      "name": "provision_1.txt",
+      "full_text": "The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 94,
+              "label": "Postcondition",
+              "text": "The free movement of personal data within the Union shall be neither restricted nor prohibited",
+              "ls_id": "a23f711d-3",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 95,
+              "end": 202,
+              "label": "Precondition",
+              "text": "for reasons connected with the protection of natural persons with regard to the processing of personal data",
+              "ls_id": "0d9aca77-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 35,
+              "end": 51,
+              "label": "Geographical - Physical Domains",
+              "text": "within the Union",
+              "ls_id": "f5f97e06-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 395]"
+    },
+    {
+      "name": "provision_10.txt",
+      "full_text": "Processing of personal data relating to criminal convictions and offences or related security measures based on Article 6(1) shall be carried out only under the control of official authority or when the processing is authorised by Union or Member State law providing for appropriate safeguards for the rights and freedoms of data subjects. Any comprehensive register of criminal convictions shall be kept only under the control of official authority.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 124,
+              "label": "Precondition",
+              "text": "Processing of personal data relating to criminal convictions and offences or related security measures based on Article 6(1)",
+              "ls_id": "3e2912f6-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 125,
+              "end": 338,
+              "label": "Postcondition",
+              "text": "shall be carried out only under the control of official authority or when the processing is authorised by Union or Member State law providing for appropriate safeguards for the rights and freedoms of data subjects",
+              "ls_id": "fd573848-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 340,
+              "end": 390,
+              "label": "Precondition",
+              "text": "Any comprehensive register of criminal convictions",
+              "ls_id": "96050cbc-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 391,
+              "end": 449,
+              "label": "Postcondition",
+              "text": "shall be kept only under the control of official authority",
+              "ls_id": "44930af4-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 172,
+              "end": 190,
+              "label": "Actors",
+              "text": "official authority",
+              "ls_id": "bb055099-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 431,
+              "end": 449,
+              "label": "Actors",
+              "text": "official authority",
+              "ls_id": "73711a9e-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 325,
+              "end": 338,
+              "label": "Actors",
+              "text": "data subjects",
+              "ls_id": "0ee8d38b-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 203,
+              "end": 227,
+              "label": "Acts",
+              "text": "processing is authorised",
+              "ls_id": "b4cbbb99-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 112,
+              "end": 124,
+              "label": "Explicit References",
+              "text": "Article 6(1)",
+              "ls_id": "a518987b-3",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 14,
+              "end": 102,
+              "label": "Residual",
+              "text": "personal data relating to criminal convictions and offences or related security measures",
+              "ls_id": "a2c656ef-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 344,
+              "end": 390,
+              "label": "Residual",
+              "text": "comprehensive register of criminal convictions",
+              "ls_id": "9e142fbd-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 271,
+              "end": 338,
+              "label": "Residual",
+              "text": "appropriate safeguards for the rights and freedoms of data subjects",
+              "ls_id": "09d05f1f-3",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 509]"
+    },
+    {
+      "name": "provision_11.txt",
+      "full_text": "If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 149,
+              "label": "Precondition",
+              "text": "If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller,",
+              "ls_id": "82f0629a-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 150,
+              "end": 333,
+              "label": "Postcondition",
+              "text": "the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation",
+              "ls_id": "8f89dffa-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 26,
+              "end": 38,
+              "label": "Actors",
+              "text": "a controller",
+              "ls_id": "b54f9823-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 134,
+              "end": 148,
+              "label": "Actors",
+              "text": "the controller",
+              "ls_id": "eb927981-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 118,
+              "end": 130,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "5346cc94-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 266,
+              "end": 278,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "41c8d1c4-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 39,
+              "end": 62,
+              "label": "Acts",
+              "text": "processes personal data",
+              "ls_id": "72d9319f-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 318,
+              "end": 333,
+              "label": "Explicit References",
+              "text": "this Regulation",
+              "ls_id": "7e96ff05-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 7,
+              "end": 62,
+              "label": "Residual",
+              "text": "purposes for which a controller processes personal data",
+              "ls_id": "43c8f274-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 751]"
+    },
+    {
+      "name": "provision_12.txt",
+      "full_text": "Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 31,
+              "label": "Hierarchies",
+              "text": "Without prejudice to Article 11",
+              "ls_id": "4917f8fc-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 21,
+              "end": 31,
+              "label": "Explicit References",
+              "text": "Article 11",
+              "ls_id": "252497c3-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 0,
+              "end": 174,
+              "label": "Precondition",
+              "text": "Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21,",
+              "ls_id": "2e5b8db9-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 175,
+              "end": 295,
+              "label": "Postcondition",
+              "text": "the controller may request the provision of additional information necessary to confirm the identity of the data subject",
+              "ls_id": "26038f07-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 43,
+              "end": 53,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "144ace3d-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 179,
+              "end": 189,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "d14a6f7c-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 107,
+              "end": 121,
+              "label": "Actors",
+              "text": "natural person",
+              "ls_id": "4051244f-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 283,
+              "end": 295,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "e2a22483-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 54,
+              "end": 121,
+              "label": "Acts",
+              "text": "has reasonable doubts concerning the identity of the natural person",
+              "ls_id": "21d34d8f-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 122,
+              "end": 173,
+              "label": "Acts",
+              "text": "making the request referred to in Articles 15 to 21",
+              "ls_id": "4234da92-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 133,
+              "end": 173,
+              "label": "Explicit References",
+              "text": "request referred to in Articles 15 to 21",
+              "ls_id": "7e29c681-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 156,
+              "end": 173,
+              "label": "Explicit References",
+              "text": "Articles 15 to 21",
+              "ls_id": "84d8dce3-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 305]"
+    },
+    {
+      "name": "provision_13.txt",
+      "full_text": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 139,
+              "label": "Precondition",
+              "text": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected,",
+              "ls_id": "5ca9ba88-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 140,
+              "end": 329,
+              "label": "Postcondition",
+              "text": "the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2",
+              "ls_id": "9a0b6d11-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 10,
+              "end": 20,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "013714f4-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 144,
+              "end": 154,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "e4965398-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 173,
+              "end": 185,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "ef2f641e-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 21,
+              "end": 47,
+              "label": "Acts",
+              "text": "intends to further process",
+              "ls_id": "357e0c6c-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 186,
+              "end": 218,
+              "label": "Temporal",
+              "text": "prior to that further processing",
+              "ls_id": "c264fcef-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 300,
+              "end": 329,
+              "label": "Explicit References",
+              "text": "as referred to in paragraph 2",
+              "ls_id": "f8a79e33-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 52,
+              "end": 65,
+              "label": "Residual",
+              "text": "personal data",
+              "ls_id": "123ef72f-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 110,
+              "end": 123,
+              "label": "Residual",
+              "text": "personal data",
+              "ls_id": "57c87db1-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 72,
+              "end": 138,
+              "label": "Residual",
+              "text": "purpose other than that for which the personal data were collected",
+              "ls_id": "ae440859-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 226]"
+    },
+    {
+      "name": "provision_14.txt",
+      "full_text": "The controller shall provide the information referred to in paragraphs 1 and 2:\n\nwithin a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;\n\nif the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or\n\nif a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 79,
+              "label": "Postcondition",
+              "text": "The controller shall provide the information referred to in paragraphs 1 and 2:",
+              "ls_id": "74bf238f-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 81,
+              "end": 264,
+              "label": "Precondition",
+              "text": "within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;",
+              "ls_id": "f4d556bf-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 266,
+              "end": 420,
+              "label": "Precondition",
+              "text": "if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or",
+              "ls_id": "9efe55ff-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 422,
+              "end": 530,
+              "label": "Precondition",
+              "text": "if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.",
+              "ls_id": "1e9194b3-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 4,
+              "end": 14,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "88abfb55-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 329,
+              "end": 341,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "fbc4c4af-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 441,
+              "end": 458,
+              "label": "Actors",
+              "text": "another recipient",
+              "ls_id": "01adfce7-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "label": "Acts",
+              "text": "provide",
+              "ls_id": "edf733b5-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 114,
+              "end": 141,
+              "label": "Acts",
+              "text": "obtaining the personal data",
+              "ls_id": "23ed5078-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 297,
+              "end": 341,
+              "label": "Acts",
+              "text": "used for communication with the data subject",
+              "ls_id": "78c6310f-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 376,
+              "end": 416,
+              "label": "Acts",
+              "text": "first communication to that data subject",
+              "ls_id": "a64ae807-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 425,
+              "end": 471,
+              "label": "Acts",
+              "text": "a disclosure to another recipient is envisaged",
+              "ls_id": "83c0f113-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 496,
+              "end": 529,
+              "label": "Acts",
+              "text": "personal data are first disclosed",
+              "ls_id": "fdc86bef-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 81,
+              "end": 141,
+              "label": "Temporal",
+              "text": "within a reasonable period after obtaining the personal data",
+              "ls_id": "48b58ad6-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 147,
+              "end": 177,
+              "label": "Temporal",
+              "text": "at the latest within one month",
+              "ls_id": "7c6a5134-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 343,
+              "end": 416,
+              "label": "Temporal",
+              "text": "at the latest at the time of the first communication to that data subject",
+              "ls_id": "221540e1-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 473,
+              "end": 529,
+              "label": "Temporal",
+              "text": "at the latest when the personal data are first disclosed",
+              "ls_id": "7caf0090-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 33,
+              "end": 78,
+              "label": "Explicit References",
+              "text": "information referred to in paragraphs 1 and 2",
+              "ls_id": "76b04796-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 60,
+              "end": 78,
+              "label": "Explicit References",
+              "text": "paragraphs 1 and 2",
+              "ls_id": "00926679-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 200,
+              "end": 263,
+              "label": "Residual",
+              "text": "specific circumstances in which the personal data are processed",
+              "ls_id": "a6124a25-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 369]"
+    },
+    {
+      "name": "provision_15.txt",
+      "full_text": "The right to obtain a copy referred to in paragraph 3 shall not adversely affect the rights and freedoms of others.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 53,
+              "label": "Precondition",
+              "text": "The right to obtain a copy referred to in paragraph 3",
+              "ls_id": "4b380ad9-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 54,
+              "end": 114,
+              "label": "Postcondition",
+              "text": "shall not adversely affect the rights and freedoms of others",
+              "ls_id": "849d2265-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 27,
+              "end": 53,
+              "label": "Explicit References",
+              "text": "referred to in paragraph 3",
+              "ls_id": "8f2bbff5-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 108,
+              "end": 114,
+              "label": "Actors",
+              "text": "others",
+              "ls_id": "7fdd075e-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 224]"
+    },
+    {
+      "name": "provision_16.txt",
+      "full_text": "The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 4,
+              "end": 105,
+              "label": "Postcondition",
+              "text": "data subject shall have the right to obtain from the controller without undue delay the rectification",
+              "ls_id": "f44d57d8-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 109,
+              "end": 155,
+              "label": "Precondition",
+              "text": "inaccurate personal data concerning him or her",
+              "ls_id": "01c63491-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 4,
+              "end": 16,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "8f2f93c6-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 57,
+              "end": 67,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "3668096d-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 68,
+              "end": 87,
+              "label": "Temporal",
+              "text": "without undue delay",
+              "ls_id": "03fe2577-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 109,
+              "end": 155,
+              "label": "Residual",
+              "text": "inaccurate personal data concerning him or her",
+              "ls_id": "b728bc64-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 213,
+              "end": 348,
+              "label": "Postcondition",
+              "text": "data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement",
+              "ls_id": "10b63811-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 157,
+              "end": 208,
+              "label": "Precondition",
+              "text": "Taking into account the purposes of the processing,",
+              "ls_id": "34624e2b-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 255,
+              "end": 279,
+              "label": "Precondition",
+              "text": "incomplete personal data",
+              "ls_id": "01568663-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 213,
+              "end": 225,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "c8ea1198-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 181,
+              "end": 207,
+              "label": "Residual",
+              "text": "purposes of the processing",
+              "ls_id": "016a7e25-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 255,
+              "end": 279,
+              "label": "Residual",
+              "text": "incomplete personal data",
+              "ls_id": "59ac54c0-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 325,
+              "end": 348,
+              "label": "Residual",
+              "text": "supplementary statement",
+              "ls_id": "33872ee5-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 571]"
+    },
+    {
+      "name": "provision_17.txt",
+      "full_text": "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 121,
+              "label": "Precondition",
+              "text": "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data,",
+              "ls_id": "2e707c2a-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 122,
+              "end": 460,
+              "label": "Postcondition",
+              "text": "the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data",
+              "ls_id": "74ae1ba4-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 10,
+              "end": 20,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "e777dfdd-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 126,
+              "end": 136,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "230a62dd-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 278,
+              "end": 289,
+              "label": "Actors",
+              "text": "controllers",
+              "ls_id": "8407d313-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 338,
+              "end": 350,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "0d67c08c-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 21,
+              "end": 54,
+              "label": "Acts",
+              "text": "has made the personal data public",
+              "ls_id": "7e656f48-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 94,
+              "end": 120,
+              "label": "Acts",
+              "text": "to erase the personal data",
+              "ls_id": "265d01bf-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 209,
+              "end": 328,
+              "label": "Acts",
+              "text": "shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data",
+              "ls_id": "1aa86d3c-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 296,
+              "end": 328,
+              "label": "Acts",
+              "text": "are processing the personal data",
+              "ls_id": "3140857f-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 351,
+              "end": 376,
+              "label": "Acts",
+              "text": "has requested the erasure",
+              "ls_id": "144906b6-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 369,
+              "end": 460,
+              "label": "Acts",
+              "text": "erasure by such controllers of any links to, or copy or replication of, those personal data",
+              "ls_id": "fce2a182-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 70,
+              "end": 93,
+              "label": "Explicit References",
+              "text": "pursuant to paragraph 1",
+              "ls_id": "3e72f5f2-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 34,
+              "end": 47,
+              "label": "Residual",
+              "text": "personal data",
+              "ls_id": "68682484-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 107,
+              "end": 120,
+              "label": "Residual",
+              "text": "personal data",
+              "ls_id": "c690f190-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 315,
+              "end": 328,
+              "label": "Residual",
+              "text": "personal data",
+              "ls_id": "37658984-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 156,
+              "end": 176,
+              "label": "Residual",
+              "text": "available technology",
+              "ls_id": "6aaf4f42-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 185,
+              "end": 207,
+              "label": "Residual",
+              "text": "cost of implementation",
+              "ls_id": "3429f823-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 400,
+              "end": 460,
+              "label": "Residual",
+              "text": "any links to, or copy or replication of, those personal data",
+              "ls_id": "8c4ab086-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 331]"
+    },
+    {
+      "name": "provision_18.txt",
+      "full_text": "A data subject who has obtained restriction of processing pursuant to paragraph 1 shall be informed by the controller before the restriction of processing is lifted.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 81,
+              "label": "Precondition",
+              "text": "A data subject who has obtained restriction of processing pursuant to paragraph 1",
+              "ls_id": "80f50fcb-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 118,
+              "end": 164,
+              "label": "Precondition",
+              "text": "before the restriction of processing is lifted",
+              "ls_id": "2f3c48eb-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 82,
+              "end": 117,
+              "label": "Postcondition",
+              "text": "shall be informed by the controller",
+              "ls_id": "7745b21a-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 2,
+              "end": 14,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "a6a84c5c-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 107,
+              "end": 117,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "24e31309-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 19,
+              "end": 57,
+              "label": "Acts",
+              "text": "has obtained restriction of processing",
+              "ls_id": "809985ef-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 129,
+              "end": 164,
+              "label": "Acts",
+              "text": "restriction of processing is lifted",
+              "ls_id": "964993ca-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 118,
+              "end": 164,
+              "label": "Temporal",
+              "text": "before the restriction of processing is lifted",
+              "ls_id": "7fd7575e-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 58,
+              "end": 81,
+              "label": "Explicit References",
+              "text": "pursuant to paragraph 1",
+              "ls_id": "384de6aa-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 428]"
+    },
+    {
+      "name": "provision_19.txt",
+      "full_text": "The controller shall communicate any rectification or erasure of personal data or restriction of processing carried out in accordance with Article 16, Article 17(1) and Article 18 to each recipient to whom the personal data have been disclosed, unless this proves impossible or involves disproportionate effort. The controller shall inform the data subject about those recipients if the data subject requests it.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 243,
+              "label": "Postcondition",
+              "text": "The controller shall communicate any rectification or erasure of personal data or restriction of processing carried out in accordance with Article 16, Article 17(1) and Article 18 to each recipient to whom the personal data have been disclosed",
+              "ls_id": "56ee74e0-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 245,
+              "end": 310,
+              "label": "Precondition",
+              "text": "unless this proves impossible or involves disproportionate effort",
+              "ls_id": "d0449b2e-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 312,
+              "end": 379,
+              "label": "Postcondition",
+              "text": "The controller shall inform the data subject about those recipients",
+              "ls_id": "c3e99c53-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 380,
+              "end": 411,
+              "label": "Precondition",
+              "text": "if the data subject requests it",
+              "ls_id": "d7370d78-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 4,
+              "end": 14,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "f79ee786-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 188,
+              "end": 197,
+              "label": "Actors",
+              "text": "recipient",
+              "ls_id": "1f4043ca-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 344,
+              "end": 356,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "a5ee3d77-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 21,
+              "end": 32,
+              "label": "Acts",
+              "text": "communicate",
+              "ls_id": "4368839d-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 37,
+              "end": 179,
+              "label": "Acts",
+              "text": "rectification or erasure of personal data or restriction of processing carried out in accordance with Article 16, Article 17(1) and Article 18",
+              "ls_id": "e741eb26-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 224,
+              "end": 243,
+              "label": "Acts",
+              "text": "have been disclosed",
+              "ls_id": "e70f36f4-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 333,
+              "end": 339,
+              "label": "Acts",
+              "text": "inform",
+              "ls_id": "3c76327a-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 400,
+              "end": 408,
+              "label": "Acts",
+              "text": "requests",
+              "ls_id": "1adbeee2-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 139,
+              "end": 149,
+              "label": "Explicit References",
+              "text": "Article 16",
+              "ls_id": "9e5dc214-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 151,
+              "end": 164,
+              "label": "Explicit References",
+              "text": "Article 17(1)",
+              "ls_id": "5707c1cb-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 169,
+              "end": 179,
+              "label": "Explicit References",
+              "text": "Article 18",
+              "ls_id": "3b866f52-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 264,
+              "end": 274,
+              "label": "Residual",
+              "text": "impossible",
+              "ls_id": "ada2a73c-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 287,
+              "end": 310,
+              "label": "Residual",
+              "text": "disproportionate effort",
+              "ls_id": "03b2ef9a-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 175]"
+    },
+    {
+      "name": "provision_2.txt",
+      "full_text": "This Regulation shall be without prejudice to the application of Directive 2000/31/EC, in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 196,
+              "label": "Postcondition",
+              "text": "This Regulation shall be without prejudice to the application of Directive 2000/31/EC, in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive",
+              "ls_id": "a92d91fc-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 25,
+              "end": 196,
+              "label": "Hierarchies",
+              "text": "without prejudice to the application of Directive 2000/31/EC, in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive",
+              "ls_id": "55513204-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 65,
+              "end": 85,
+              "label": "Explicit References",
+              "text": "Directive 2000/31/EC",
+              "ls_id": "86a7b298-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 161,
+              "end": 196,
+              "label": "Explicit References",
+              "text": "Articles 12 to 15 of that Directive",
+              "ls_id": "506a53ee-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 130]"
+    },
+    {
+      "name": "provision_20.txt",
+      "full_text": "In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 75,
+              "label": "Precondition",
+              "text": "In exercising his or her right to data portability pursuant to paragraph 1,",
+              "ls_id": "02f75e4f-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 193,
+              "end": 219,
+              "label": "Precondition",
+              "text": "where technically feasible",
+              "ls_id": "18a89f7c-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 80,
+              "end": 191,
+              "label": "Postcondition",
+              "text": "data subject shall have the right to have the personal data transmitted directly from one controller to another",
+              "ls_id": "0c6dc8e0-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 80,
+              "end": 92,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "74fc232c-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 166,
+              "end": 180,
+              "label": "Actors",
+              "text": "one controller",
+              "ls_id": "8559fc5e-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 184,
+              "end": 191,
+              "label": "Actors",
+              "text": "another",
+              "ls_id": "50e363b5-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 3,
+              "end": 50,
+              "label": "Acts",
+              "text": "exercising his or her right to data portability",
+              "ls_id": "8737f315-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 51,
+              "end": 74,
+              "label": "Explicit References",
+              "text": "pursuant to paragraph 1",
+              "ls_id": "2756a4db-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 447]"
+    },
+    {
+      "name": "provision_21.txt",
+      "full_text": "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 75,
+              "label": "Precondition",
+              "text": "Where the data subject objects to processing for direct marketing purposes,",
+              "ls_id": "244416bc-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 76,
+              "end": 140,
+              "label": "Postcondition",
+              "text": "the personal data shall no longer be processed for such purposes",
+              "ls_id": "e2414987-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 10,
+              "end": 22,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "6f6c637a-f",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 23,
+              "end": 30,
+              "label": "Acts",
+              "text": "objects",
+              "ls_id": "92f0fe69-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 34,
+              "end": 74,
+              "label": "Residual",
+              "text": "processing for direct marketing purposes",
+              "ls_id": "5c9ec0bb-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 218]"
+    },
+    {
+      "name": "provision_22.txt",
+      "full_text": "Paragraph 1 shall not apply if the decision:\n\nis necessary for entering into, or performance of, a contract between the data subject and a data controller;\n\nis authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject\u2019s rights and freedoms and legitimate interests; or \n\nis based on the data subject\u2019s explicit consent.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 27,
+              "label": "Postcondition",
+              "text": "Paragraph 1 shall not apply",
+              "ls_id": "535f7fbc-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 28,
+              "end": 408,
+              "label": "Precondition",
+              "text": "if the decision:\n\nis necessary for entering into, or performance of, a contract between the data subject and a data controller;\n\nis authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject\u2019s rights and freedoms and legitimate interests; or \n\nis based on the data subject\u2019s explicit consent",
+              "ls_id": "7c1a838a-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 120,
+              "end": 132,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "b8bbeeb8-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 139,
+              "end": 154,
+              "label": "Actors",
+              "text": "data controller",
+              "ls_id": "ee0eb7b1-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 144,
+              "end": 154,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "6e8e4216-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 99,
+              "end": 154,
+              "label": "Legal Relations",
+              "text": "contract between the data subject and a data controller",
+              "ls_id": "b8878165-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 63,
+              "end": 107,
+              "label": "Acts",
+              "text": "entering into, or performance of, a contract",
+              "ls_id": "1518b5ad-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 250,
+              "end": 354,
+              "label": "Acts",
+              "text": "lays down suitable measures to safeguard the data subject\u2019s rights and freedoms and legitimate interests",
+              "ls_id": "addfef6e-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 0,
+              "end": 11,
+              "label": "Explicit References",
+              "text": "Paragraph 1",
+              "ls_id": "2bb43f69-3",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 35,
+              "end": 43,
+              "label": "Residual",
+              "text": "decision",
+              "ls_id": "014b3aee-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 551]"
+    },
+    {
+      "name": "provision_23.txt",
+      "full_text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:\n\nthe purposes of the processing or categories of processing;\n\nthe categories of personal data;\n\nthe scope of the restrictions introduced;\n\nthe safeguards to prevent abuse or unlawful access or transfer;\n\nthe specification of the controller or categories of controllers;\n\nthe storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing;\n\nthe risks to the rights and freedoms of data subjects; and\n\nthe right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 15,
+              "end": 65,
+              "label": "Precondition",
+              "text": "any legislative measure referred to in paragraph 1",
+              "ls_id": "1f8f5d66-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 19,
+              "end": 65,
+              "label": "Explicit References",
+              "text": "legislative measure referred to in paragraph 1",
+              "ls_id": "6ff3b8b1-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 0,
+              "end": 742,
+              "label": "Postcondition",
+              "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:\n\nthe purposes of the processing or categories of processing;\n\nthe categories of personal data;\n\nthe scope of the restrictions introduced;\n\nthe safeguards to prevent abuse or unlawful access or transfer;\n\nthe specification of the controller or categories of controllers;\n\nthe storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing;\n\nthe risks to the rights and freedoms of data subjects; and\n\nthe right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction",
+              "ls_id": "a4765360-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 110,
+              "end": 124,
+              "label": "Precondition",
+              "text": "where relevant",
+              "ls_id": "e7cdcd01-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 362,
+              "end": 372,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "43ffed95-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 390,
+              "end": 401,
+              "label": "Actors",
+              "text": "controllers",
+              "ls_id": "5a448504-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 593,
+              "end": 606,
+              "label": "Actors",
+              "text": "data subjects",
+              "ls_id": "193ad5f9-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 626,
+              "end": 639,
+              "label": "Actors",
+              "text": "data subjects",
+              "ls_id": "8a086bde-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 408,
+              "end": 423,
+              "label": "Temporal",
+              "text": "storage periods",
+              "ls_id": "360c41a5-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 678,
+              "end": 742,
+              "label": "Precondition",
+              "text": "unless that may be prejudicial to the purpose of the restriction",
+              "ls_id": "93b3aef8-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 697,
+              "end": 742,
+              "label": "Residual",
+              "text": "prejudicial to the purpose of the restriction",
+              "ls_id": "a1753f21-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 623]"
+    },
+    {
+      "name": "provision_24.txt",
+      "full_text": "Where proportionate in relation to processing activities, the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 57,
+              "label": "Precondition",
+              "text": "Where proportionate in relation to processing activities,",
+              "ls_id": "e8a2efd3-9",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 58,
+              "end": 188,
+              "label": "Postcondition",
+              "text": "the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller",
+              "ls_id": "c0019434-c",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 178,
+              "end": 188,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "27ebb134-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 116,
+              "end": 170,
+              "label": "Acts",
+              "text": "implementation of appropriate data protection policies",
+              "ls_id": "baa7e730-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 62,
+              "end": 97,
+              "label": "Explicit References",
+              "text": "measures referred to in paragraph 1",
+              "ls_id": "a9eb9650-b",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 132]"
+    },
+    {
+      "name": "provision_25.txt",
+      "full_text": "An approved certification mechanism pursuant to Article 42 may be used as an element to demonstrate compliance with the requirements set out in paragraphs 1 and 2 of this Article.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 58,
+              "label": "Precondition",
+              "text": "An approved certification mechanism pursuant to Article 42",
+              "ls_id": "516fa045-5",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 59,
+              "end": 178,
+              "label": "Postcondition",
+              "text": "may be used as an element to demonstrate compliance with the requirements set out in paragraphs 1 and 2 of this Article",
+              "ls_id": "40499095-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 36,
+              "end": 58,
+              "label": "Explicit References",
+              "text": "pursuant to Article 42",
+              "ls_id": "a78afb3f-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 120,
+              "end": 178,
+              "label": "Explicit References",
+              "text": "requirements set out in paragraphs 1 and 2 of this Article",
+              "ls_id": "26e71be6-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 143]"
+    },
+    {
+      "name": "provision_26.txt",
+      "full_text": "The arrangement referred to in paragraph 1 shall duly reflect the respective roles and relationships of the joint controllers vis-\u00e0-vis the data subjects. The essence of the arrangement shall be made available to the data subject.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 42,
+              "label": "Precondition",
+              "text": "The arrangement referred to in paragraph 1",
+              "ls_id": "62037211-d",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 0,
+              "end": 153,
+              "label": "Postcondition",
+              "text": "The arrangement referred to in paragraph 1 shall duly reflect the respective roles and relationships of the joint controllers vis-\u00e0-vis the data subjects",
+              "ls_id": "354172d8-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 155,
+              "end": 185,
+              "label": "Precondition",
+              "text": "The essence of the arrangement",
+              "ls_id": "75844e2b-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 155,
+              "end": 229,
+              "label": "Postcondition",
+              "text": "The essence of the arrangement shall be made available to the data subject",
+              "ls_id": "8d16f135-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 108,
+              "end": 125,
+              "label": "Actors",
+              "text": "joint controllers",
+              "ls_id": "9f6f9163-2",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 140,
+              "end": 153,
+              "label": "Actors",
+              "text": "data subjects",
+              "ls_id": "80d9cff4-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 140,
+              "end": 152,
+              "label": "Actors",
+              "text": "data subject",
+              "ls_id": "5d6cc067-1",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 77,
+              "end": 153,
+              "label": "Legal Relations",
+              "text": "roles and relationships of the joint controllers vis-\u00e0-vis the data subjects",
+              "ls_id": "9aa28e77-3",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 4,
+              "end": 42,
+              "label": "Explicit References",
+              "text": "arrangement referred to in paragraph 1",
+              "ls_id": "848ceec7-8",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 31,
+              "end": 42,
+              "label": "Explicit References",
+              "text": "paragraph 1",
+              "ls_id": "9e758e82-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 439]"
+    },
+    {
+      "name": "provision_27.txt",
+      "full_text": "Where Article 3(2) applies, the controller or the processor shall designate in writing a representative in the Union.",
+      "assignments": [
+        {
+          "annotator": 2,
+          "order": 1,
+          "status": "done",
+          "difficulty_rating": 0,
+          "relations": [],
+          "annotations": [
+            {
+              "start": 0,
+              "end": 27,
+              "label": "Precondition",
+              "text": "Where Article 3(2) applies,",
+              "ls_id": "9f854524-7",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 28,
+              "end": 116,
+              "label": "Postcondition",
+              "text": "the controller or the processor shall designate in writing a representative in the Union",
+              "ls_id": "4f4ad26d-6",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 32,
+              "end": 42,
+              "label": "Actors",
+              "text": "controller",
+              "ls_id": "3584f1a6-a",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 50,
+              "end": 59,
+              "label": "Actors",
+              "text": "processor",
+              "ls_id": "e8d658a1-e",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 60,
+              "end": 86,
+              "label": "Acts",
+              "text": "shall designate in writing",
+              "ls_id": "2d320dcb-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 104,
+              "end": 116,
+              "label": "Geographical - Physical Domains",
+              "text": "in the Union",
+              "ls_id": "2268a670-0",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            },
+            {
+              "start": 6,
+              "end": 18,
+              "label": "Explicit References",
+              "text": "Article 3(2)",
+              "ls_id": "40e94ee4-4",
+              "confidence_rating": 0,
+              "html_metadata": null,
+              "relations": []
+            }
+          ]
+        }
+      ],
+      "reasoning_trace": "[Reasoning tokens used: 201]"
+    }
+  ],
+  "counts": {
+    "documents": 20,
+    "assignments": 20,
+    "annotators": 1,
+    "annotations": 193,
+    "relations": 0
+  }
+}
