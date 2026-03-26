@@ -13,7 +13,7 @@ class Adapter(ABC):
     def convert(self, annotations):
         pass
     
-class Gpt2Lawnotation(Adapter):
+class LLM2Lawnotation(Adapter):
     
    def convert(self, annotations):
       converted_annotations = []
@@ -49,7 +49,16 @@ class Gpt2Lawnotation(Adapter):
    def _find_text(self, text):
        pass
 
-class Gpt2LawnotationAll(Gpt2Lawnotation):
+# Use this adapater when the LLM exported annotations with start and end indices. It will not attempt to find the text in the full text, but will simply return the annotations as they are.
+class LLM2LawnotationIndices(LLM2Lawnotation):
+    
+   def __init__(self, full_text):
+       super().__init__(full_text)
+   
+   def _find_text(self, text):
+        raise NotImplementedError("This adapter should not be used for annotations without start and end indices.")
+
+class LLM2LawnotationAll(LLM2Lawnotation):
     
    def __init__(self, full_text):
        super().__init__(full_text)
@@ -63,7 +72,7 @@ class Gpt2LawnotationAll(Gpt2Lawnotation):
         return [(m.start(), m.end()) for m in re.finditer(escaped, self.full_text)]
 
 # Use this adapter when you are sure each annotations will have at most one match in the assignment's text.
-class Gpt2LawnotationFirst(Gpt2Lawnotation):
+class LLM2LawnotationFirst(LLM2Lawnotation):
     
     def __init__(self, full_text):
         super().__init__(full_text)
